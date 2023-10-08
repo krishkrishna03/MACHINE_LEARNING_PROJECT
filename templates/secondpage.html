@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Hero Selection</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            background-image: url('/static/sec2.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+        }
+
+        .hero-container {
+            text-align: center;
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            background-color:rgba(255, 255, 255, 0.7)
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px auto; /* Centered horizontally */
+            color: white;
+            cursor: pointer;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero {
+    text-align: center;
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0.8); /* Transparent red */
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    cursor: pointer;
+}
+
+
+        .hero.selected {
+            background-color: rgba(0, 255, 0, 0.5); /* Transparent red */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            cursor: pointer;
+        }
+
+        .hero.not-selected {
+            background-color: rgba(255, 0, 0, 0.8); /* Transparent red */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            cursor: pointer;
+        }
+
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+        .hero-container,
+        .hero {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .input {
+    max-width: 200px;
+    min-height: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    background: rgba(232, 232, 232, 0.8); /* Transparent background */
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+    transform: scale(1);
+    animation: pop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0); /* Start from no scale */
+        opacity: 0; /* Start from invisible */
+    }
+    100% {
+        transform: scale(1); /* End with full scale */
+        opacity: 1; /* End with full opacity */
+    }
+}
+
+.input:focus {
+  background: #e8e8e8;
+  box-shadow: inset 5px 5px 17px #c8c8c8,
+            inset -5px -5px 17px #ffffff;
+}
+    </style>
+</head>
+<body>
+
+    <div>
+        {% if prediction == 1 %}
+
+            <h2 class="hero selected" class="input">Hero Selected</h2>
+        {% else %}
+            <
+            <h2 class="hero not-selected" class="input">Hero Not Selected</h2>
+
+        {% endif %}
+    </div>
+</body>
+</html>
