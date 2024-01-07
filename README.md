@@ -110,28 +110,27 @@ So the above is about all the 3 sensor dedicated data ,so for each we
 also made the predictions just like the below provided...by having a
 click on the Air Quality View button it gives us the prediction in the
 as like
-below...![](vertopal_6c322e7e8f844a79bd44935d9347d49c/media/image2.jpeg){width="6.457577646544182in"
-height="3.6506944444444445in"}
+![WhatsApp Image 2024-01-07 at 20 41 52_ff42eb12](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/7f42c4e5-bf4f-4f36-8d22-843a53b8f277)
+
 
 Now by going through the next view of soil quality we can obtain as
 follows...
 
-![](vertopal_6c322e7e8f844a79bd44935d9347d49c/media/image3.jpeg){width="6.268055555555556in"
-height="3.5208333333333335in"}
+![WhatsApp Image 2024-01-07 at 20 41 53_7f3516ff](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/6684c387-463c-496e-8f67-d7c981370731)
+
 
 **NOW by going through the Water Quality we can get the prediction as
 follows.....**
 
-![](vertopal_6c322e7e8f844a79bd44935d9347d49c/media/image4.jpeg){width="6.268055555555556in"
-height="3.5208333333333335in"}
+![WhatsApp Image 2024-01-07 at 20 41 54_10e0772b](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/18284e68-8bde-40d4-a9d1-7551f4920ed4)
+
 
 **Data Visualization :**
 
-![](vertopal_6c322e7e8f844a79bd44935d9347d49c/media/image5.jpeg){width="6.268055555555556in"
-height="3.5208333333333335in"}
+![WhatsApp Image 2024-01-07 at 20 41 53_48dd2e04](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/1fad352a-5c15-47c6-8713-04b0719f27b1)
 
-![](vertopal_6c322e7e8f844a79bd44935d9347d49c/media/image6.jpeg){width="6.268055555555556in"
-height="3.5208333333333335in"}
+
+![WhatsApp Image 2024-01-07 at 20 41 54_48b30f9b](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/234e5552-9579-4a2b-8561-9703088cb2cd)
 
 **Conclusion :**
 
