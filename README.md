@@ -104,7 +104,8 @@ frontend
 
 The Frontend Page of the IOT(INTERNET OF THINGS) platform looks in the
 below format ...
-https://github.com/MONIKANAMALA/College-Dashboard/assets/104424662/c834e85f-1768-4e81-bd24-0e5880df807a
+![WhatsApp Image 2024-01-07 at 20 41 52_93e00f7f](https://github.com/krishkrishna03/MACHINE_LEARNING_PROJECT/assets/96357392/5e258734-2d84-4bc7-8243-cfa6223511ca)
+
 So the above is about all the 3 sensor dedicated data ,so for each we
 also made the predictions just like the below provided...by having a
 click on the Air Quality View button it gives us the prediction in the
